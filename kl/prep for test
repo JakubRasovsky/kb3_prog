@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: fantasy, Papyrus, Aryal, 'Courier New', Courier, monospace;
+            background-color: bisque;
+            max-width: 800px;
+            colour: green; <!-- barva textu, ale čím specifičtějši tím větší priorita, h1 proto má svoji barvu a atejně tak text p -->
+            margin: auto; <!-- vycentruje stránku tak aby z obou stran bylo stejně místa-->
+
+        }
+        p {
+            text-align: justify;
+            colour: blue;
+            font-family: , Arial, 'Courier New', Courier, monospace;
+
+        }
+
+        h1 {
+            colour: darkred;
+            text-align: center;
+
+        }
+
+        img {
+            float: right; <!-- značí že objekt bude vedle předcházejícího objektu-->
+            margin: 10px; <!-- kolik místa chci mít vedle objektu-->
+            front-size: 14px; <!-- upravuje velikost písma konkrétně podle displeyů
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Nadpis</h1>
+    <p> style="front-size: 50px;" nalevo style... znamená že upravuje daný objekt ve kterém je style=... psáno.<br>
+        Když zmáčknu na klávesnici vykřičník a enter 
+        tak se mi celá tato struktura automaticky vytvoří<br>
+        část "<_style_>" umožnuje do jazyka "HTML" psát jazyk CSS
+        p a zavorka složená je selector (písmena, zkratky použité v "<>" 
+        pro označení části na kterou se aplikují změny), <br>
+        "text-align" je vlastnost a "justify" je hodnota</p> <br>
+        složené závorky se píšou jako alt gr a b
+
+    <p>Toto je basic text!</p>
+
+    <img    src="tree.web.jpg" 
+                alt="fotka stromu"
+                width="250px">
+                
+    <img source="charli.jpg" alt="Charlie´s">
+
+    <a href="https://www.strom.cz/">
+
+    <p>Repozitář je <a href="https://github.com/JakubRasovsky/kb3_prog">dostupný zde</a>
+
+      <u>podtržení</u>
+      <i>kurzíva</i>
+      <b>tučný text</b>
+
+      <h3>Ronaldo is one of the most <a href="fvlastnidruhy.html>decorated"</a></h3>
+
+      <h3>Ronaldo is one of the most <a href="vlastniprvni.html>decorated"</a></h3>
+
+      <ul>   <!-- mohu napsat ul nebo ol un/ordered list pro značení  ne/číslovaného seznamu-->
+        <li>první položka</li>
+        <li>druhý položka</li>
+      <ul>
+
+
+</body>
+
+</html>
