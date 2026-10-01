@@ -1,0 +1,44 @@
+! a enter je celá struktura
+změnit jazyk na cs
+do hlavičky přidat <style>
+složené závorky alt gr a b
+
+    <style>
+        body {______:______;}
+    
+        img {float: right}
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Nadpis</h1>
+    <p> style="front-size: 50px;"
+
+      <u>podtržení</u>
+      <i>kurzíva</i>
+      <b>tučný text</b>
+
+  
+    <
+      img    src="t_______.jpg" 
+             alt="______"
+             width="___px"
+    >
+                
+    
+    <a href="https://www.strom.cz/">
+    <a href="______>______"</a>
+    <p>Repozitář je <a href="https://github.com/JakubRasovsky/kb3_prog">______</a><p>______</p>
+
+      
+      <ul>
+        <li>první položka</li>
+        <li>druhý položka</li>
+      </ul>
+
+</body>
+
+</html>
