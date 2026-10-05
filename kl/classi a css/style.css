@@ -1,4 +1,6 @@
 body {
+    background-color: white;
+    color: black;
     max-width: 750px;;
     margin: auto;
 
@@ -17,7 +19,7 @@ img {
 .cerny {
     background-color: black;
     color: white;
-    padding: 20px;
+    padding: 50px;
     border-radius: 15px;
 
 }
@@ -32,6 +34,7 @@ img {
 
 .vpravo {
     width: 100px;
+    margin: 12 px;
     padding: 8px;
     float: right;
 
