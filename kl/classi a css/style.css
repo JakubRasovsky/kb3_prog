@@ -1,0 +1,58 @@
+body {
+    max-width: 750px;;
+    margin: auto;
+
+}
+
+p {
+    padding: 20px;
+
+}
+
+img {
+    border-radius: 15px;
+
+}
+
+.cerny {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+.bili {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+.vpravo {
+    width: 100px;
+    padding: 8px;
+    float: right;
+
+}
+
+#nazev {
+    text-align:center;
+    color: darkred;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#footer {
+    font-size: 10px;
+    color: grey;
+    padding: 3px;
+
+}
+
+#navigace {
+    border: 2px solid black
+    padding: 10px;
+
+}
