@@ -1,0 +1,27 @@
+body {
+    max-width: 1200px;
+    margin:auto;
+}
+#hlavicka {
+    border: 2px solid black;
+    padding: 10px;
+    text-decoration: none;
+    margin: auto;
+    max-width: 1200px;
+    background-color: rgb(220, 207, 207);
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.Perex {
+    margin: auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+
+
+#zapati {
+
+}
