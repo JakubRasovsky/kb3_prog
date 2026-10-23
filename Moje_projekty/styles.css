@@ -20,8 +20,35 @@ body {
     text-align: center;
 }
 
+.nadpis_h3 {
+    margin: auto;
+}
 
+p {
+    padding: 30px 25px;
+    text-align: justify;
+}
 
+.cerny {
+    background-color: black;
+    color:white;
+    border-radius: 15px;
+}
+
+.cela_stranka_obrazek {
+    border: 2px solid black;
+    margin: auto;
+    width: 1000px;
+}
+
+.center {
+    text-align: center;
+}
+
+.vpravo { /*nepouzivam*/
+    float: right;
+    margin: 12px;
+}
 #zapati {
 
 }
